@@ -1,0 +1,16 @@
+@keyframes moveWords {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(800%);
+    }
+   
+  }
+  
+  .move-words {
+    animation: moveWords 8s linear forwards infinite;
+  }
+  .positionBreakingnews{
+    margin-left: -600px !important;
+  }
